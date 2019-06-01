@@ -1,0 +1,153 @@
+
+body{
+  overflow-x: hidden;
+}
+.nav-bar-brand{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.fas{
+  color: white;
+}
+.banniere{
+  background: url(' ../img/banniere.png') center no-repeat;
+  height: 700px;
+  width: 100%;
+}
+a{
+    color:white;
+}
+input[type=text]{
+  background-color:lightgray;
+}
+.logo{
+  font-family: 'Open Sans', sans-serif;
+}
+.title {
+  font-size: 52px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(50, 50, 50);
+}
+.part1{
+  background-color: rgb(238, 238, 238);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.search{
+  padding-top: 250px;
+}
+.part2{
+  background-color: white;
+}
+.destination{
+  padding-left: -5px;
+}
+.layouts{
+  background-color: white;
+  padding-left: 0px; 
+  padding-right: 0px;
+  border: solid 5px rgb(238, 238, 238);
+}
+p {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: rgb(139, 139, 139);
+  text-align: left;
+  text-align: justify;
+}
+.layouts img{
+width: 100%;
+}
+.layouts h5{
+  padding-top: 15px;
+  font-size: 16px;
+  }
+  .layouts span{
+    color: white;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: -25px;
+    z-index: 2;
+  }
+.Where {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.down{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.go{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+hr{
+  color:black;
+}
+.footer_bg {
+  background-color: rgb(238, 238, 238);
+  padding-top: 15px;
+}
+.nav_links a{
+  font-size: 14px;
+  font-weight:bold;
+  font-family: "Montserrat";
+  color: rgb(50, 50, 50);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.btn{ 
+    background-color:#f6783a;
+    padding-left:30px;
+    padding-right: 30px;
+}
+.btn a{
+  font-weight: bold;
+}
+.form-control{
+  border-radius: 0px;
+}
+.Before_you_leave {
+    padding: 50px;
+}
+  @media (max-width:425px){
+    .Where{
+      font-size: 25px;
+    }
+    .layouts {
+      border: solid 15px rgb(238, 238, 238);
+    }
+    .title {
+      font-size: 35px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .down {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .btn{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  @media (max-width:425px){
+    .banniere {
+      height: 380px;
+      width: 100%;
+    }
+    .search{
+      padding-top: 55px;
+    }
+    .input-group {
+      width: auto;
+    }
+  }

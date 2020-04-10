@@ -1,4 +1,4 @@
-# WEB PAGE MOCKUP INTEGRATION | Integration de Maquette Web
+# WEB PAGE MOCKUP INTEGRATION | Intégration de Maquette Web
 
 Summer is here so I decided to share this handemade template for all travelling lovers...
 
